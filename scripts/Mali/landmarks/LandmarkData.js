@@ -1,4 +1,4 @@
-const MalianLandmarks = [
+const malianLandmarks = [
     {
         landmark: "The Bandiagara Cliffs"
     },
@@ -9,3 +9,6 @@ const MalianLandmarks = [
         landmark: "Bamako City Centre Market"
     },
 ]
+export const landmarkDataCopier = () => {
+    return malianLandmarks.slice()
+}
