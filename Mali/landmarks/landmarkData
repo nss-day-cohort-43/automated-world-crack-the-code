@@ -1,0 +1,11 @@
+const MalianLandmarks = [
+    {
+        The Bandiagara Cliffs
+    },
+    {
+        The Great Mosque of Djenne
+    },
+    {
+        Bamako City Centre Market
+    },
+]
