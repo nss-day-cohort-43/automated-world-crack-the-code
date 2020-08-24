@@ -1,0 +1,13 @@
+.cities {
+    display: flex
+}
+
+.list-items {
+    background-color: aqua;
+    margin: 2px solid blue;
+}
+
+.pictures {
+    background-color: aqua;
+    margin: 2px solid blue;
+}
