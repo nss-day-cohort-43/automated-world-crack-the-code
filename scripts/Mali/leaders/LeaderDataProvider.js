@@ -8,6 +8,7 @@ const maliLeaders = [
     {
         name: "Colonel Assimi Goita"
     }
+]
 
     export const maliLeaderDataCopier = () => {
         return maliLeaders.slice();
