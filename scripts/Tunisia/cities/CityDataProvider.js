@@ -2,15 +2,15 @@ const TunisiaCities = [
 
     {
         cityName: "Tunis",
-        population: "1000000.00"
+        population: "638,845"
     },
     {
-        cityName: "Tunis",
-        population: "1000000.00"
+        cityName: "Sfax",
+        population: "330,440"
     },
     {
-        cityName: "Tunis",
-        population: "1000000.00"
+        cityName: "Sousse",
+        population: "221,530"
     }
 
 ]
