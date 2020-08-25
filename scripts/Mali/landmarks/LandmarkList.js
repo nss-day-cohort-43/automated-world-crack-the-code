@@ -1,7 +1,7 @@
 import { maliLandmarkHTMLCreator } from "./LandmarkHTML.js";
 import { landmarkDataCopier } from "./LandmarkData.js";
 
-export const LandmarkListCreator = () => {
+export const landmarkListCreator = () => {
 
     const contentElement = document.querySelector(".landmarks")
     const landmarks = landmarkDataCopier()

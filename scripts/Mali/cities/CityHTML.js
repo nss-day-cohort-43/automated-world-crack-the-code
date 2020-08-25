@@ -1,5 +1,4 @@
-export const CityHTMLCreator = (entry) => {
-
+export const cityHTMLCreator = (entry) => {
     return `
     <section>
         <ul>
@@ -7,8 +6,6 @@ export const CityHTMLCreator = (entry) => {
         <div> Population: ${entry.population} </div>
         </ul>
     </section>
-    
-    
     `
 
 }

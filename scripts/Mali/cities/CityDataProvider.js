@@ -1,5 +1,4 @@
 const malianCities = [
-
     {
         cityName: "Bamako",
         population: "101,016,167"
@@ -12,7 +11,6 @@ const malianCities = [
         cityName: "Ségou",
         population: "105,305"
     }
-
 ]
 
 export const cityDataCopier = () => {

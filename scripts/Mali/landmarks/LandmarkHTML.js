@@ -2,8 +2,9 @@ export const maliLandmarkHTMLCreator= (entry) => {
     return `
     <section>
         <ul>
-            <li>City Name: ${entry.landmarkName}</li><br> 
-            <div>Population: ${entry.location}</div>
+            <li>Landmark: ${entry.landmarkName}</li><br> 
+            <div>location: ${entry.location}</div>
+            <div>${entry.description}</div>
         </ul>
     </section>
     `
