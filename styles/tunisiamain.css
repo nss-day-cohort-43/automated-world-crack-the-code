@@ -27,6 +27,18 @@ html {
     align-content: center;
 }
 
+..mainContainer {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 32%;
+    border-top: 10px rgb(197, 157, 117) solid;
+}
+
 .list-items {
     background-color: aqua;
 }
@@ -37,4 +49,9 @@ html {
 
 .leaders {
     background-color: rgb(144, 168, 112);
+}
+
+.pictures {
+    height: 40;
+    width: 40;
 }

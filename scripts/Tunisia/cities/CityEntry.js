@@ -5,6 +5,7 @@ export const CityEntryComponent = (entry) => {
         <ul>
             <li>City Name: ${entry.cityName}</li> 
         <div> Population: ${entry.population}</div>
+      
         </ul>
     </section>
     
