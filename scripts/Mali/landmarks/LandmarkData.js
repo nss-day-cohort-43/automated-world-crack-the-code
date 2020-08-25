@@ -6,7 +6,7 @@ const malianLandmarks = [
     },
     {
         landmark: "The Great Mosque of Djenne",
-        location: "there",
+        location: "Djenne",
         description:""
     },
     {
