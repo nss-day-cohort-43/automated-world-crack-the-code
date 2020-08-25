@@ -2,8 +2,9 @@ export const LandmarkEntryComponent = (entry) => {
     return `
     <section>
         <ul>
-            <li>City Name: ${entry.landmarkName}</li><br> 
-            <div>Population: ${entry.location}</div>
+            <li>Landmark Name: ${entry.landmarkName}</li> 
+            <div>Location: ${entry.location}</div>
+            <div>Description: ${entry.description}</div><br>
         </ul>
     </section>
     `
