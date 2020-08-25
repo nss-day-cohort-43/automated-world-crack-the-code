@@ -1,0 +1,23 @@
+
+
+.pictures {
+    width:20%
+}
+
+.list-picture {
+    height: 100%;
+
+}
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+.cities-container, .landmarks-container, .leaders-container  {
+    display: flex;
+    flex-direction: row;
+    width: 75%;
+    max-height: 425px;
+    justify-content: center
+}
+
