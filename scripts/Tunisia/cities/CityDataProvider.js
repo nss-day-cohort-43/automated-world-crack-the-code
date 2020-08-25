@@ -3,7 +3,6 @@ const TunisiaCities = [
     {
         cityName: "Tunis",
         population: "693,210"
-
     },
     {
         cityName: "Sfax",

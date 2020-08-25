@@ -1,42 +1,64 @@
-/* body,
-html {
-    height: 100%;
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #29449b;
+    padding: 0;
+    width: auto;
+    justify-content: center;
+    height: 2em;
 }
 
-.hero-image {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/header.jpeg");
-    height: 50%;
+.navActiveItem {
+    background-color: #92921e;
+}
+
+.bannerDiv {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
+    text-align: center;
+    font-size: 2vw;
 }
 
-.hero-text {
-    text-align: center;
+.bannerImage {
+    max-width: 100%;
+    max-height: 800px;
+}
+
+.countryText {
     position: absolute;
-    top: 50%;
+    top: 25%;
     left: 50%;
     transform: translate(-50%, -50%);
+    font-size: 6em;
+    padding-top: 135px;
     color: white;
-} */
-
-.cover {
-    height: 400px;
-    width: 1400px;
-    align-content: center;
-}
-
-..mainContainer {
-    display: flex;
-    flex-wrap: wrap;
+    text-shadow: 3px 3px black;
 }
 
 .container {
     display: flex;
     flex-direction: column;
-    flex-basis: 32%;
-    border-top: 10px rgb(197, 157, 117) solid;
+}
+
+.cities,
+.landmarks,
+.leaders,
+.pictures {
+    display: flex;
+    flex-direction: row;
+    width: 75%;
+    max-height: 425px;
+    justify-content: center
+}
+
+.pictures {
+    width: 20%
+}
+
+.list-picture {
+    height: 100%;
 }
 
 .list-items {
@@ -51,7 +73,9 @@ html {
     background-color: rgb(144, 168, 112);
 }
 
-.pictures {
-    height: 40;
-    width: 40;
+footer {
+    background: rgb(223, 178, 157);
+    height: 1em;
+    margin-top: 10px;
+    padding: 10px;
 }
