@@ -13,6 +13,6 @@ const MoroccoLandmarks = [
     }
 ]
 
-export const makeLandmark = () => {
+export const copyLandmark = () => {
     return MoroccoLandmarks.slice()
 }
