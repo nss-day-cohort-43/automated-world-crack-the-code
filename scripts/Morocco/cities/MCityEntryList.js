@@ -1,10 +1,10 @@
 import { CityEntryComponent } from "./MCityEntry.js";
-import { makeCity } from "./MCityDataProvider.js"
+import { copyCity } from "./MCityDataProvider.js"
 
 export const CityList = () => {
 
     const contentElement = document.querySelector(".cities")
-    const cities = makeCity()
+    const cities = copyCity()
 
     let cityHTMLRepresentations = "";
 

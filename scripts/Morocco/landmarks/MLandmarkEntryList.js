@@ -1,10 +1,10 @@
 import { LandmarkEntryComponent } from "./MLandmarkEntry.js";
-import { makeLandmark } from "./MLandmarkDataProvider.js";
+import { copyLandmark } from "./MLandmarkDataProvider.js";
 
 export const LandmarkList = () => {
 
     const contentElement = document.querySelector(".landmarks")
-    const landmarks = makeLandmark()
+    const landmarks = copyLandmark()
 
     let landmarkHTMLRepresentations = "";
 
