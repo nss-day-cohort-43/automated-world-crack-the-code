@@ -1,0 +1,43 @@
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #1f6695;
+    padding: 0;
+    width: auto;
+    justify-content: center;
+}
+.navActiveItem {
+    background-color: #92921e;
+}
+
+.logo {
+    display: center;
+    justify-content: center;
+    width: auto;
+    height: 100%;
+    text-align: center;
+}
+
+.bannerDiv {
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      position: relative;
+      text-align: center;
+      font-size: 2vw;
+  
+  }
+.bannerImage {
+    max-width: 100%;
+    max-height: 800px;
+}
+.countryText {
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 6em;
+    padding-top: 135px;
+    color: white;
+    text-shadow: 3px 3px black;
+}
