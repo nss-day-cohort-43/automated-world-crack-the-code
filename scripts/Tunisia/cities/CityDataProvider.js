@@ -2,15 +2,35 @@ const TunisiaCities = [
 
     {
         cityName: "Tunis",
-        population: "1000000.00"
+        population: "693,210"
     },
     {
-        cityName: "Tunis",
-        population: "1000000.00"
+        cityName: "Sfax",
+        population: "277,278"
     },
     {
-        cityName: "Tunis",
-        population: "1000000.00"
+        cityName: "Sousse",
+        population: "164,123"
+    },
+    {
+        cityName: "Kairouan",
+        population: "	119,794"
+    },
+    {
+        cityName: "Bizerte",
+        population: "115,268"
+    },
+    {
+        cityName: "Gabes",
+        population: "110,075"
+    },
+    {
+        cityName: "Ariana",
+        population: "97,687"
+    },
+    {
+        cityName: "Gafsa",
+        population: "81,232"
     }
 
 ]
