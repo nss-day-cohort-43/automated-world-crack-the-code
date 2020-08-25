@@ -1,4 +1,4 @@
-export const CityEntryComponent = (entry) => {
+export const CityHTMLCreator = (entry) => {
 
     return `
     <section>

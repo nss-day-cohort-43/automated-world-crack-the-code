@@ -1,23 +1,20 @@
-const TunisiaCities = [
+const malianCities = [
 
     {
-        cityName: "Tunis",
-        population: "1000000.00"
+        cityName: "Bamako",
+        population: "101,016,167"
     },
     {
-        cityName: "Tunis",
-        population: "1000000.00"
+        cityName: "Sikasso",
+        population: "134,774"
     },
     {
-        cityName: "Tunis",
-        population: "1000000.00"
+        cityName: "Ségou",
+        population: "105,305"
     }
 
 ]
 
-export const makeCity = () => {
-
-    return TunisiaCities.slice()
-
-
+export const cityDataCopier = () => {
+    return malianCities.slice()
 }
