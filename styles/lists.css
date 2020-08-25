@@ -7,7 +7,6 @@
 .list-picture {
    height: 100%;
     max-height: 500px;
-
 }
 main {
     display: flex;
@@ -20,9 +19,11 @@ main {
     width: 75%;
     /* max-height: 425px; */
     justify-content: center;
-    margin-top: 3%
+    margin-top: 3%;
+
 }
 
-/* landmarks-container {
-    float: right;
-} */
+.landmarks-container {
+    flex-direction: row-reverse;
+}
+
