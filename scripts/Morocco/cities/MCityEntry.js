@@ -1,6 +1,6 @@
 export const CityEntryComponent = (entry) => {
     return `
-    <section>
+    <section class="entryComp">
         <ul>
             <li>City Name: ${entry.cityName}</li>
             <div>Population: ${entry.population}</div><br> 
