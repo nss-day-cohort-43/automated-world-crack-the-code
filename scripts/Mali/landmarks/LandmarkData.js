@@ -11,7 +11,22 @@ const malianLandmarks = [
     },
     {
         landmark: "Bamako City Centre Market",
-        location: "everywhere",
+        location: "Bamako",
+        description: ""
+    },
+    {
+        landmark: "Cathedral of Bamako",
+        location: "Bamako", 
+        description:""
+    },
+    {
+        landmark: "Timbuktu",
+        location: "Timbuktu",
+        description:""
+    },
+    {
+        landmark: "Bamako Grand Mosque",
+        location: "Bamako",
         description: ""
     },
 ]
