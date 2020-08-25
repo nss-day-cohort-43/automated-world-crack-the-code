@@ -7,3 +7,4 @@ export const maliLeaderHTMLCreator = (leader) => {
     </section> 
     `
 }
+
