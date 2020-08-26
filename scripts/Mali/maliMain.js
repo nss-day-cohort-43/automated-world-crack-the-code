@@ -1,9 +1,16 @@
-import { leaderListCreator } from "./leaders/LeaderEntryList.js"
-import { landmarkListCreator } from "./landmarks/LandmarkList.js";
-import { cityListCreator } from "./cities/CityList.js"
+import { listCreator } from "../ListCreator.js";
+import { dataCopier } from "../DataCopier.js";
+import { malianCities } from "./CityData.js";
+import { malianLandmarks } from "./LandmarkData.js"
+import { malianLeaders } from "./LeaderData.js";
 
-leaderListCreator();
 
-landmarkListCreator();
 
-cityListCreator();
+const cityDataCopy = dataCopier(malianCities);
+listCreator(cityDataCopy, "cities");
+
+const landmarkDataCopy = dataCopier(malianLandmarks);
+listCreator(landmarkDataCopy, "landmarks");
+
+const leaderDataCopy = dataCopier(malianLeaders);
+listCreator(leaderDataCopy, "leaders");

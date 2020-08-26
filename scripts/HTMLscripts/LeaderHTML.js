@@ -1,4 +1,4 @@
-export const maliLeaderHTMLCreator = (leader) => {
+export const leaderHTMLCreator = (leader) => {
    return `
     <section>
         <ul>

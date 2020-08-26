@@ -1,4 +1,4 @@
-const malianCities = [
+export const malianCities = [
     {
         cityName: "Bamako",
         population: "101,016,167"
@@ -24,7 +24,3 @@ const malianCities = [
         population: "67,424"
     },
 ]
-
-export const cityDataCopier = () => {
-    return malianCities.slice()
-}

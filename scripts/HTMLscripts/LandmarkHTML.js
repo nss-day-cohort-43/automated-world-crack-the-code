@@ -1,4 +1,4 @@
-export const maliLandmarkHTMLCreator= (entry) => {
+export const landmarkHTMLCreator= (entry) => {
     return `
     <section>
         <ul>

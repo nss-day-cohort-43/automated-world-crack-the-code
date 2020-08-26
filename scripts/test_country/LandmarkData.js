@@ -1,35 +1,32 @@
-const malianLandmarks = [
+export const testLandmarks = [
     {
-        landmark: "The Bandiagara Cliffs",
+        landmark: "testThe Bandiagara Cliffs",
         location: "here", 
         description:""
     },
     {
-        landmark: "The Great Mosque of Djenne",
+        landmark: "testThe Great Mosque of Djenne",
         location: "Djenne",
         description:""
     },
     {
-        landmark: "Bamako City Centre Market",
+        landmark: "testBamako City Centre Market",
         location: "Bamako",
         description: ""
     },
     {
-        landmark: "Cathedral of Bamako",
+        landmark: "testCathedral of Bamako",
         location: "Bamako", 
         description:""
     },
     {
-        landmark: "Timbuktu",
+        landmark: "testTimbuktu",
         location: "Timbuktu",
         description:""
     },
     {
-        landmark: "Bamako Grand Mosque",
+        landmark: "testBamako Grand Mosque",
         location: "Bamako",
         description: ""
     },
 ]
-export const landmarkDataCopier = () => {
-    return malianLandmarks.slice()
-}
