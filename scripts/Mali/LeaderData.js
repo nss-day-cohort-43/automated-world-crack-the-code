@@ -1,4 +1,4 @@
-const maliLeaders = [
+export const malianLeaders = [
     {
         name: "Ibrahim Boubacar Keïta"
     },
@@ -9,7 +9,3 @@ const maliLeaders = [
         name: "Colonel Assimi Goita"
     }
 ]
-
-    export const maliLeaderDataCopier = () => {
-        return maliLeaders.slice();
-    }
